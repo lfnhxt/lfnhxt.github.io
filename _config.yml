@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            码客小栈
 tagline:          技术随笔
-description:      "技术笔记。NodeJS,Java."
+description:      "技术笔记。"
 url:              https://lfnhxt.github.io/
 baseurl:          /
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"

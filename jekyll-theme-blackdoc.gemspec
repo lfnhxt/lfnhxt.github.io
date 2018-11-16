@@ -3,11 +3,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-blackdoc"
   spec.version       = "2.0.1"
-  spec.authors       = ["Karlo Espiritu"]
-  spec.email         = ["karloespiritu@gmail.com"]
+  spec.authors       = ["zhangxw"]
+  spec.email         = ["569933574@qq.com"]
 
   spec.summary       = %q{Black Theme for Jekyll}
-  spec.homepage      = "https://github.com/karloespiritu/BlackDoc"
+  spec.homepage      = "https://github.com/lfnhxt/lfnhxt.github.io"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
