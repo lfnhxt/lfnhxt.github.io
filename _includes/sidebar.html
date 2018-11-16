@@ -19,6 +19,7 @@
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
+        {{node.title}}
         {% if node.title != null && node.title != "Home" %}
           <!--{% if node.layout == "page" %}-->
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url  | remove_first: '/' }}">{{ node.title }}</a>
@@ -32,7 +33,7 @@
       <!--<span class="sidebar-nav-item">Currently v{{ site.version }}</span>-->
     </nav>
 
-    <p>&copy; {{ site.name }}. </p>
+    <p>&copy; {{ site.author.name }}. </p>
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
