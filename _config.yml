@@ -7,7 +7,7 @@ title:            码客小栈
 tagline:          技术随笔
 description:      "技术笔记。"
 url:              https://lfnhxt.github.io/
-baseurl:          /
+baseurl:          https://lfnhxt.github.io/
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
