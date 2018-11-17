@@ -6,7 +6,6 @@ label: true
 
 <div class="posts">
   {% for post in site.posts %}
-  <p>{{page.title}}  {{post.group}}</p>
   {% if page.title == post.group %}
   <div class="post">
     <h1 class="post-title">
