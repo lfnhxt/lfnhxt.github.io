@@ -19,19 +19,17 @@
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
-        {% if node.label == "true" %}
-          <!--{% if node.layout == "page" %}-->
+        {% if node.label != null %}
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url  | remove_first: '/' }}">{{ node.title }}</a>
-          <!--{% endif %}-->
         {% endif %}
         {% if node.label == true %}
-          <p>{{node.title}}1</p>>
+          <p>{{node.title}}1</p>
         {% endif %}
         {% if node.label == "true" %}
-          <p>{{node.title}}2</p>>
+          <p>{{node.title}}2</p>
         {% endif %}
         {% if node.label != null %}
-          <p>{{node.title}}3</p>>
+          <p>{{node.title}}3</p>
         {% endif %}
       {% endfor %}
 
