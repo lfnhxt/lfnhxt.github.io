@@ -15,7 +15,7 @@ group: MSSQL
 4.cmd执行"C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn\sqlserver.exe" /m /f   
 5.打开Sql Server Managerment Studio.   
 6.不要马上连接，先取消，然后左上角点击新建查询，然后连接   
-7.执行角本   
+7.执行脚本   
 ```sql
 --打开xp_cmdshell功能
 EXEC [sys].[sp_configure] @configname = 'xp_cmdshell', -- varchar(35)
@@ -44,6 +44,6 @@ EXEC [sys].[sp_configure] @configname = 'xp_cmdshell', -- varchar(35)
     @configvalue = 0 -- int
 RECONFIGURE WITH override
 ```
-8.关掉SQLSERVER
-9.打开SQLSERVER配置管理器，启动SQLSERVER
-10.打开Sql Server Managerment Studio即可通过windows身份登陆.
+8.关掉SQLSERVER   
+9.打开SQLSERVER配置管理器，启动SQLSERVER   
+10.打开Sql Server Managerment Studio即可通过windows身份登陆.   
